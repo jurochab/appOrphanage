@@ -1,0 +1,69 @@
+
+.primary-button{
+    margin-top: 6.4rem;
+
+    width: 100%;
+    height: 6.4rem;
+    border: 0;
+
+    cursor: pointer;
+
+    background: #3cdc8c;
+
+    border-radius: 3rem;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 200ms;
+}
+
+.primary-button:hover{
+    background: #36cf82;
+}
+
+.primary-button img{
+    margin-right: 1.6rem;
+}
+
+.input-block.images button{
+    border: 1px dashed #ffae00;
+    width: 100%;
+    background-color: #fde5b5;
+    height: 6.4rem;
+    padding: 0 i.6rem;
+    margin-top: 2.4rem;
+    border-radius: 2rem;
+
+    cursor: pointer;
+}
+
+.button-select{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.button-select button{
+    height: 6.4rem;
+    background: #fde5b5;
+    border: 1px solid #d57149;
+    color: #f76328;
+    cursor: pointer;
+}
+
+.button-select button.active{
+    background: #ffb388;
+    border: 1px solid #f76328;
+    color: #d57149;
+    
+}
+
+.button-select button:first-child { /*pega só o "sim"*/
+    border-radius: 2rem 0 0 2rem;
+}
+
+.button-select button:last-child { /*pega só o "sim"*/
+    border-radius: 0 2rem 2rem 0;
+}
